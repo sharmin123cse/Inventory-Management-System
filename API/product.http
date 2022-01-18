@@ -1,0 +1,11 @@
+GET  http://127.0.0.1:8000/api/product HTTP/1.1
+Content-Type: application/json
+
+###
+
+GET  http://127.0.0.1:8000/api/cart/product HTTP/1.1
+Content-Type: application/json
+
+
+###
+

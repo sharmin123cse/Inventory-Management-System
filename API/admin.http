@@ -1,0 +1,38 @@
+POST http://127.0.0.1:8000/api/auth/login HTTP/1.1
+Content-Type: application/json
+
+{
+    "email": "admin@gmail.com",
+    "password": "admin45"
+}
+
+
+
+###
+POST http://127.0.0.1:8000/api/auth/me HTTP/1.1
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xMjcuMC4wLjE6ODAwMFwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTY0MDAxMzk3OCwiZXhwIjoxNjQwMDE3NTc4LCJuYmYiOjE2NDAwMTM5NzgsImp0aSI6Ik5qSVdKbTdzNTdmZ3NoajciLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.kpkwaDvmHJmr1uMOMoQ8Z3sevV1_FhyKTmUVA1M3p_c
+
+###
+POST http://127.0.0.1:8000/api/auth/logout HTTP/1.1
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xMjcuMC4wLjE6ODAwMFwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTY0MDAxMzk3OCwiZXhwIjoxNjQwMDE3NTc4LCJuYmYiOjE2NDAwMTM5NzgsImp0aSI6Ik5qSVdKbTdzNTdmZ3NoajciLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.kpkwaDvmHJmr1uMOMoQ8Z3sevV1_FhyKTmUVA1M3p_c
+
+###
+
+POST http://127.0.0.1:8000/api/auth/signup HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Sharmin",
+    "email": "sharmin1234m@gmail.com",
+    "password": "sharmin",
+    "password_confirmation": "sharmin"
+}
+
+###
+POST http://127.0.0.1:8000/api/auth/me HTTP/1.1
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xMjcuMC4wLjE6ODAwMFwvYXBpXC9hdXRoXC9zaWdudXAiLCJpYXQiOjE2NDAwMTc1OTAsImV4cCI6MTY0MDAyMTE5MCwibmJmIjoxNjQwMDE3NTkwLCJqdGkiOiJhNmhORnNiQXlSVVRTZk9VIiwic3ViIjo0LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.-422dbcfn8rzWraOcerzYBKtSri_ABKeZ3gFQXrL1xg
+
+
+###
+POST http://127.0.0.1:8000/api/auth/Forgotpassword HTTP/1.1
+
